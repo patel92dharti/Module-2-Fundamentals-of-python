@@ -1,3 +1,4 @@
+#Write a Python program to test whether a passed letter is a vowel or not
 n=input("Please enter the Letter: ")
 sh=n.lower()
 if sh=="a":

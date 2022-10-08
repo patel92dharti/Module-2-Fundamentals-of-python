@@ -1,3 +1,4 @@
+#Write a Python program to count the occurrences of each word in a given sentence
 String=input("Enter Your Full Name: ")
 word_list= String.split()
 print(word_list)

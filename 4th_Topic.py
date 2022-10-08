@@ -1,5 +1,4 @@
-#swap two number with temp variable and without temp variable
-
+#Write python program that swap two number with temp variable and without temp variable
 A,B=20,50
 Temp_var1,Temp_var2=A,B
 print("Old Value Of A: ",A,"Temp1 Variable Value: ",A)

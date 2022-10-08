@@ -1,3 +1,4 @@
+#Write a Python program to get the Factorial number of given number.
 #Multiplication/Factorial
 # 1st Method...
 import math as mymath

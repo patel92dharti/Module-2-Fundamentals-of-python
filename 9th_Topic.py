@@ -1,3 +1,4 @@
+#Write a python program to sum of the first n positive integers.
 #1+2+3+ =6
 n =int(input("Enter the value:"))
 SUM= 0
