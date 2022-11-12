@@ -6,10 +6,10 @@ a = int(input("Please enter A value: "))
 b = int(input("Please enter B value: "))
 c = int(input("Please enter C value: "))
 if a==b:
-    print("Total Value Sum is: 0")
+    print("Total Value Sum is:",a-b)
 elif b==c:
-    print("Total Value Sum is: 0")
+    print("Total Value Sum is:",b-c)
 elif a==c:
-    print("Total Value Sum is: 0")
+    print("Total Value Sum is:",a-c)
 else:
-    print("Total Value Sum is: ",a+b+c)
+    print("Total Value Sum is:",a+b+c)

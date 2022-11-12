@@ -4,14 +4,15 @@ if 'not' follows the 'poor',
 replace the whole 'not'...'poor' substring with 'good'.
 Return the resulting string.
 """
-String= "Life is never fair and perhaps it is a poor thing for most of us that it is not " \
-        "Don't be afraid to give up the poor to go for the great."
-snot =String.find("not")
-spoor=String.find("poor")
-if snot>0 and spoor>0:
-    String=String.replace("not","good")
-    if snot>0 and spoor>0:
-        String = String.replace("poor", "good")
-        print("New String: ",String)
-else:
-    print("Old String: ",String)
+def find_string(str):
+    Stnot=str.find("not")
+    Stpoor=str.find("poor")
+    if Stpoor>Stnot and Stnot>0 and Stpoor>0:
+        str=str.replace(str[Stnot:(Stpoor+4)],"Good")
+        return str
+    else:
+        return str
+
+String= "The lyrics is not that ha poor!"
+
+print(find_string(String))
